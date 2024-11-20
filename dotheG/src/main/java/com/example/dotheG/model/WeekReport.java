@@ -6,9 +6,9 @@ import java.util.Date;
 
 @Entity
 public class WeekReport {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "WEEK_REPORT_ID")
     private Long weekReportId;
 
     @OneToOne

@@ -6,10 +6,10 @@ import java.util.Date;
 
 @Entity
 public class Step {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long walkingId;
+    @Column(name = "STEP_ID")
+    private Long stepId;
 
     @ManyToOne
     @JoinColumn(name = "USER_ID")

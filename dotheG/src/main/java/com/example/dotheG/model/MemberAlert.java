@@ -4,9 +4,9 @@ import jakarta.persistence.*;
 
 @Entity
 public class MemberAlert {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "USER_ALERT_ID")
     private Long userAlertId;
 
     @ManyToOne

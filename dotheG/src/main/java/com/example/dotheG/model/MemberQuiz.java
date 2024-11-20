@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 public class MemberQuiz {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "USER_QUIZ_ID")
     private Long userQuizId;
 
     @ManyToOne
@@ -16,6 +17,6 @@ public class MemberQuiz {
     @JoinColumn(name = "QUIZ_ID")
     private Quiz quizId;
 
-    // Todo : default value False
+    @Column(columnDefinition = "boolean default false")
     private boolean isSolved;
 }
