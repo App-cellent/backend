@@ -8,6 +8,7 @@ import java.util.Date;
 public class MemberActivity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "USER_ACTIVITY_ID")
     private Long userAcvityId;
 
     @ManyToOne

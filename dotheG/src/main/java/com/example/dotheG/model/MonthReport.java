@@ -8,6 +8,7 @@ import java.util.Date;
 public class MonthReport {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "MONTH_REPORT_ID")
     private Long monthReportId;
 
     @OneToOne
