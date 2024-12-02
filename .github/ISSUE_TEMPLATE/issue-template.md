@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-##✏️ Description
+## ✏️ Description
 구현할 기능에 대해 설명해주세요
 
-##📍TO-DO
+## 📍TO-DO
 - [ ]
 - [ ]
