@@ -25,10 +25,10 @@ public class MemberQuiz {
     private Quiz quizId;
 
     @Column(columnDefinition = "boolean default false")
-    public boolean isSolved;
+    private boolean isSolved;
 
     @Nullable
-    public Boolean isCorrect;
+    private Boolean isCorrect;
 
     public boolean isSolved(){
         return isSolved;
