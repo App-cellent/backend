@@ -5,17 +5,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5de735ec-87f3-4658-a5ec-3798e9fecd6a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MemberActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MemberActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MemberAlert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MemberAlert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MemberInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MemberInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/controller/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/dto/QuizDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/repository/MemberQuizRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/repository/QuizRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/service/QuizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/service/ScheduleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/com/eightcruz/javastudy/AccessObjExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/com/eightcruz/javastudy/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/AccessObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ActionExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ArrayExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ArrayExam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/BizExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/BizException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/BizService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/BusExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/CarExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/CarExam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/CarExam3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ConstantExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/DoWhileExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/DuckExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/EnumExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ExceptionExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ExceptionExam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ForEachExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ForExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/HelloExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/IfExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/InnerExam1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/InnerExam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/InnerExam3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/LEDExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/LEDTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/MethodOverloadExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/MyAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/MyCal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/MyCalExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/MyClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/MyClassExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/OperatorExam6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/PrimitiveDataTypeExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/ReferenceDataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/StringExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/StringMethodExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/SwitchExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/TruckExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/VariableScopeExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../first/src/main/java/javaStudy/WhileExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/DotheGApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/config/jwt/JwtFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/controller/MemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/dto/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/Activity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/Alert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/MemberActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/MemberAlert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/MemberCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/MemberInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/MemberQuiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/MonthReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/Step.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/model/WeekReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/repository/MemberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/dotheG/service/MemberService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/DotheGApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/DotheGApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MemberQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MemberQuiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MonthReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/MonthReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/Step.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/WeekReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/model/WeekReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dotheG/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dotheG/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +111,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="dotheG" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -42,6 +126,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -64,8 +149,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Build dotheG.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;domainFix__ys&quot;,
+    &quot;Spring Boot.DotheGApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;quiz__ys&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -75,6 +162,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\노영서\OneDrive\문서\GitHub\backend\dotheG" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="DotheGApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="dotheG.main" />
@@ -102,6 +194,10 @@
       <updated>1731975974023</updated>
       <workItem from="1731975975518" duration="2105000" />
       <workItem from="1732102281221" duration="2570000" />
+      <workItem from="1732206245189" duration="23000" />
+      <workItem from="1732544804502" duration="1547000" />
+      <workItem from="1733119406362" duration="21493000" />
+      <workItem from="1733746430914" duration="362000" />
     </task>
     <servers />
   </component>

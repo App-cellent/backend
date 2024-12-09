@@ -1,8 +1,15 @@
 package com.example.dotheG.model;
 
+import jakarta.annotation.Nullable;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+import java.util.Optional;
 
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class MemberQuiz {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,5 +25,32 @@ public class MemberQuiz {
     private Quiz quizId;
 
     @Column(columnDefinition = "boolean default false")
-    private boolean isSolved;
+    public boolean isSolved;
+
+    @Nullable
+    public Boolean isCorrect;
+
+    public boolean isSolved(){
+        return isSolved;
+    }
+
+    public MemberQuiz(Member userId, Quiz quizId){
+        this.userId = userId;
+        this.quizId = quizId;
+        this.isSolved = false;
+        this.isCorrect = null;
+    }
+
+    public Member getUserId() {
+        return userId;
+    }
+
+    public Quiz getQuizId() {
+        return quizId;
+    }
+
+    public void updateStatus(boolean isCorrect, boolean isSolved) {
+        this.isCorrect = isCorrect;
+        this.isSolved = isSolved;
+    }
 }
