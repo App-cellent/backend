@@ -1,7 +1,7 @@
 package com.example.dotheG.model;
 
 import jakarta.persistence.*;
-
+import lombok.Getter;
 import java.util.Date;
 
 @Entity
@@ -13,5 +13,12 @@ public class Quiz {
 
     private Date quizDate;
 
+    @Getter
     private String quizAnswer;
+
+    private String quizSol;
+
+//    public String getQuizAnswer() {
+//        return quizAnswer;
+//    }
 }
